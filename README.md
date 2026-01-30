@@ -30,7 +30,7 @@ The sample code shows that the Dimension Extended Dragonfly (DED) improves upon 
 
 The simulator compares three primary routing strategies:
 
-1.  **Basic Path**: The shortest deterministic path. Highly susceptible to failure if any node on the path is faulty.
+1.  **Basic Path**: The basic deterministic path. Highly susceptible to failure if any node on the path is faulty.
 2.  **Neighbor Jump**: Leverages local neighbors within the n-dimensional group to bypass faulty nodes before attempting global travel.
 3.  **Global Jump**: An aggressive redundancy strategy that utilizes diverse global links to route through intermediate groups, enhancing the chance of reaching the destination.
 4.  **Multi Jump**: This is the most powerful algorithm in the suite. It is based on the topological principles of dragonfly-like topologies.
